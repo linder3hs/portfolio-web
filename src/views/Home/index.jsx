@@ -1,10 +1,11 @@
-import { Link } from "react-router-dom";
+import { Banner, FeaturesWork, Post } from "../../components";
 
 const Home = () => {
   return (
     <>
-      <h1>Home</h1>
-      <Link to="/login">ir al login</Link>
+      <Banner />
+      <FeaturesWork />
+      <Post />
     </>
   );
 };

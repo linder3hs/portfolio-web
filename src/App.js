@@ -1,10 +1,12 @@
+import { ThemeProvider } from "@mui/material/styles";
+import theme from "./theme";
 import Router from "./router";
 
 const App = () => {
   return (
-    <div>
+    <ThemeProvider theme={theme}>
       <Router />
-    </div>
+    </ThemeProvider>
   );
 };
 
