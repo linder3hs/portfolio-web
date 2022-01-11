@@ -1,0 +1,17 @@
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+}
+
+.footer__icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__icons div {
+  margin: 12px;
+}
