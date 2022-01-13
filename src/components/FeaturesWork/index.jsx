@@ -1,4 +1,5 @@
 import { Grid, Container, Card, CardContent, Typography } from "@mui/material";
+import { Link } from "react-router-dom"
 import { format } from 'date-fns'
 import { makeStyles } from "@mui/styles";
 
@@ -31,9 +32,9 @@ const FeaturesWork = ({ posts }) => {
                 </Typography>
               </Grid>
               <Grid item xs={6} sm={6} className={classes.right}>
-                <Typography variant="h6" fontWeight="light">
+                <Link to="/posts">
                   View all
-                </Typography>
+                </Link>
               </Grid>
             </Grid>
           </Grid>
