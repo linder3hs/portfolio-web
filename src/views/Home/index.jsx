@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import React, { useState, useEffect } from "react"
 import { Banner, FeaturesWork, Post } from "../../components";
 import { getPosts } from "../../service/blog"
 
