@@ -14,7 +14,7 @@ const Banner = () => {
       <Grid container spacing={3} alignItems="center" minHeight="100vh">
         <Grid item xs={12} sm={6}>
           <Typography variant="h3" fontSize={38} fontWeight="bold">
-            Hi, I'm Linder Hassinger
+            Hola yo soy Linder Hassinger
           </Typography>
           <Typography variant="h5" sx={{ mt: 2 }}>
             Software Engineer

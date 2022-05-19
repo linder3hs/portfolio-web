@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { LoginView, HomeView, PostView, WorksView } from "../views";
-import { Header } from "../components"
+import { Admin, LoginView, HomeView, PostView, WorksView } from "../views";
+import { Header } from "../components";
 
 const Router = () => {
   return (
@@ -12,6 +12,7 @@ const Router = () => {
           <Route path="/works" element={<WorksView />} />
           <Route path="/" element={<HomeView />} />
         </Route>
+        <Route path="/admin" element={<Admin />} />
       </Routes>
     </BrowserRouter>
   );
